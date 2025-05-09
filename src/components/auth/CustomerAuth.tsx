@@ -217,7 +217,7 @@ const CustomerAuth: React.FC<CustomerAuthProps> = ({ mode = "login" }) => {
           <CardHeader>
             <div className="flex flex-col items-center justify-center mb-4">
               <img
-                src="/public/lgog.png"
+                src="/lgog.png"
                 alt="Milk Shop Logo"
                 className="h-24 w-auto mb-2"
               />

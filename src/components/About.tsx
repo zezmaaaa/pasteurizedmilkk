@@ -110,7 +110,8 @@ const About = () => {
           </div>
           <div>
             <img
-              src="/public/abt.jpg"
+              src="/abt.jpg"
+              alt="About Us"
               className="rounded-lg shadow-md w-3/4 h-auto mx-auto"
             />
           </div>
@@ -154,19 +155,19 @@ const About = () => {
                 name: "J-ann Mahilum",
                 role: "Developer",
                 // Replace this URL with your actual image URL when available
-                image: "/public/jann.jpg",
+                image: "/jann.jpg",
               },
               {
                 name: "Efiel Vasquez",
                 role: "System Analysist",
                 // Replace this URL with your actual image URL when available
-                image: "/public/efiel.jpg",
+                image: "/efiel.jpg",
               },
               {
                 name: "Jhonchris Torralba",
                 role: "Developer",
                 // Replace this URL with your actual image URL when available
-                image: "/public/jc.jpg",
+                image: "/jc.jpg",
               },
             ].map((member, index) => (
               <div key={index} className="text-center">

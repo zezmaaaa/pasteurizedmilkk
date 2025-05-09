@@ -258,7 +258,7 @@ const Home = () => {
           </div>
           <div className="relative">
             <img
-              src="/public/home.jpg"
+              src="/home.jpg"
               alt="Milk bottles"
               className="rounded-lg shadow-lg max-w-[600px] object-cover"
             />

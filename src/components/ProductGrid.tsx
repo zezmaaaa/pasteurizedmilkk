@@ -402,7 +402,8 @@ const defaultProducts: Product[] = [
     id: "5",
     name: "Chocolate Milk",
     price: 104.29,
-    image: "/public/molo.jpg",
+    image: "/molo.jpg",
+
     rating: 4.6,
     category: "milk",
     description:

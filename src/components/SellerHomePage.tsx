@@ -260,7 +260,7 @@ const SellerHomePage = () => {
           </div>
           <div className="relative">
             <img
-              src="/public/user.jpg"
+              src="/user.jpg"
               alt="Dairy farm"
               className="rounded-lg shadow-lg max-w-[600px] object-cover"
             />
