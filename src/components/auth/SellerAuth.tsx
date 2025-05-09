@@ -177,7 +177,7 @@ const SellerAuth: React.FC<SellerAuthProps> = ({ mode = "login" }) => {
           <CardHeader>
             <div className="flex flex-col items-center justify-center mb-4">
               <img
-                src="https://i.ibb.co/Jy3MFQP/milk-logo.png"
+                src="/public/lgog.png"
                 alt="Milk Shop Logo"
                 className="h-24 w-auto mb-2"
               />

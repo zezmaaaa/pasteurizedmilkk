@@ -8,7 +8,8 @@ import { CartProvider } from "./context/CartContext";
 import { TempoDevtools } from "tempo-devtools";
 TempoDevtools.init();
 
-const basename = import.meta.env.BASE_URL;
+// Use BASE_URL if defined, otherwise default to '/'
+const basename = import.meta.env.BASE_URL || "/";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

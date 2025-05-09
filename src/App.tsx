@@ -44,6 +44,12 @@ function App() {
         <>
           {/* For the tempo routes */}
           {import.meta.env.VITE_TEMPO === "true" && useRoutes(routes)}
+          {/* Add a route for tempobook to prevent catchall from capturing it */}
+          {import.meta.env.VITE_TEMPO === "true" && (
+            <Routes>
+              <Route path="/tempobook/*" element={<></>} />
+            </Routes>
+          )}
 
           <Routes>
             {/* Public Routes */}

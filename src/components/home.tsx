@@ -258,9 +258,9 @@ const Home = () => {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&q=80"
+              src="/public/home.jpg"
               alt="Milk bottles"
-              className="rounded-lg shadow-lg max-w-[400px] object-cover"
+              className="rounded-lg shadow-lg max-w-[600px] object-cover"
             />
           </div>
         </div>

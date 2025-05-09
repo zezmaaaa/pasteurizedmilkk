@@ -125,7 +125,6 @@ const SellerHomePage = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <ThemeToggle />
             <Link to="/customer/cart" className="relative">
               <ShoppingCart className="h-6 w-6" />
               {useCart().getCartCount() > 0 && (
@@ -261,9 +260,9 @@ const SellerHomePage = () => {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1595475207225-428b62bda831?w=800&q=80"
+              src="/public/user.jpg"
               alt="Dairy farm"
-              className="rounded-lg shadow-lg max-w-[400px] object-cover"
+              className="rounded-lg shadow-lg max-w-[600px] object-cover"
             />
           </div>
         </div>

@@ -110,8 +110,7 @@ const About = () => {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1563636619-e9143da7973b?w=600&q=80"
-              alt="Bottled milk"
+              src="/public/abt.jpg"
               className="rounded-lg shadow-md w-3/4 h-auto mx-auto"
             />
           </div>
@@ -155,22 +154,19 @@ const About = () => {
                 name: "J-ann Mahilum",
                 role: "Developer",
                 // Replace this URL with your actual image URL when available
-                image:
-                  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+                image: "/public/jann.jpg",
               },
               {
                 name: "Efiel Vasquez",
                 role: "System Analysist",
                 // Replace this URL with your actual image URL when available
-                image:
-                  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                image: "/public/efiel.jpg",
               },
               {
                 name: "Jhonchris Torralba",
                 role: "Developer",
                 // Replace this URL with your actual image URL when available
-                image:
-                  "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+                image: "/public/jc.jpg",
               },
             ].map((member, index) => (
               <div key={index} className="text-center">

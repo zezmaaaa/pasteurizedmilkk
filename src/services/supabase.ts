@@ -27,11 +27,9 @@ if (!supabaseUrl || !supabaseAnonKey) {
     if (!supabaseAnonKey) {
       console.warn("Using placeholder Supabase Anon Key for development");
     }
-  } else {
-    throw new Error(
-      "Supabase configuration is missing. Please check your environment variables.",
-    );
   }
+  // Don't throw error in production to prevent app from crashing
+  // Instead, we'll use fallback values and log errors
 }
 
 // Create the Supabase client with actual values or fallbacks for development
